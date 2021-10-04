@@ -20,16 +20,16 @@ public class JKTV20Task5AnastasiiaRoshchina {
     public static void main(String[] args) {
         int[][] array = new int [5][];
         Random random = new Random();
-        int numstr = 0;
+        array[0] = new int[3];
+        array[1] = new int[5];
+        array[2] = new int[7];
+        array[3] = new int[8];
+        array[4] = new int[9];
         for (int i = 0; i < 5; i++){
             switch (i) {
-                case 0: numstr = 3; break;
-                case 1: numstr = 5; break;
-                case 2: numstr = 7; break;
-                case 3: numstr = 8; break;
-                case 4: numstr = 9; break;
+     
             }
-            array[i] = new int[numstr]; 
+          
         }
         
         for(int i = 0; i < array.length; i++){
@@ -57,8 +57,7 @@ public class JKTV20Task5AnastasiiaRoshchina {
                     }
                     
                 }
-                
-                
+                    
             }
         }
         
